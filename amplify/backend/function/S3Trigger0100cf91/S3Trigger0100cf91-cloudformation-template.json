@@ -59,7 +59,7 @@
 				"Runtime": "nodejs10.x",
 				"Timeout": "25",
 				"Code": {
-					"S3Bucket": "amplify-oneqprod-oneqprod-191830-deployment",
+					"S3Bucket": "amplify-oneqprod-sampledev-164644-deployment",
 					"S3Key": "amplify-builds/S3Trigger0100cf91-6e6150566f6c386b5277-build.zip"
 				}
 			}

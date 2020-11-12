@@ -3,5 +3,10 @@
         "configLevel": "project",
         "useProfile": true,
         "profileName": "gitoneq"
+    },
+    "sampledev": {
+        "configLevel": "project",
+        "useProfile": true,
+        "profileName": "amplify-secondary-us-east-1"
     }
 }

@@ -16,5 +16,26 @@
                 "oneqprod84170006": {}
             }
         }
+    },
+    "sampledev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-oneqprod-sampledev-164644-authRole",
+            "UnauthRoleArn": "arn:aws:iam::884308339822:role/amplify-oneqprod-sampledev-164644-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::884308339822:role/amplify-oneqprod-sampledev-164644-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-oneqprod-sampledev-164644-deployment",
+            "UnauthRoleName": "amplify-oneqprod-sampledev-164644-unauthRole",
+            "StackName": "amplify-oneqprod-sampledev-164644",
+            "StackId": "arn:aws:cloudformation:us-east-1:884308339822:stack/amplify-oneqprod-sampledev-164644/9e4f5ff0-24d8-11eb-ae1a-12f8925a37c4",
+            "AmplifyAppId": "d2nm4gtt3pzpjh"
+        },
+        "categories": {
+            "auth": {
+                "oneqprod84170006": {}
+            },
+            "function": {
+                "S3Trigger0100cf91": {}
+            }
+        }
     }
 }
