@@ -9,7 +9,7 @@ const oauthconfig = {
         "profile",
         "aws.cognito.signin.user.admin"
     ],
-    "redirectSignIn": "http://localhost:3000/",
+    "redirectSignIn": "https://master.d2nm4gtt3pzpjh.amplifyapp.com/",
     "redirectSignOut": "https://master.d2nm4gtt3pzpjh.amplifyapp.com/",
     "responseType": "token"
 }

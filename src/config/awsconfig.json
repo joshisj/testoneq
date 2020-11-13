@@ -5,8 +5,8 @@
     "userPoolWebClientId": "63d6p6cpdp6auv8vmhkdt5n95a",
     "identityPoolId": "us-east-1:e0dc0168-8a31-4bee-80e7-da1e1327c19e",
     "mandatorySignIn": false,
-    "redirectSignIn": "http://localhost:3000/",
-    "redirectSignOut": "http://localhost:3000/"
+    "redirectSignIn": "https://master.d2nm4gtt3pzpjh.amplifyapp.com/",
+    "redirectSignOut": "https://master.d2nm4gtt3pzpjh.amplifyapp.com/"
   },
   "federationTarget": "COGNITO_USER_POOLS",
   "aws_user_files_s3_bucket": "oneq-prod164644-sampledev",
