@@ -17,7 +17,7 @@ Amplify.configure(awsconfig);
 Auth.configure({ oauth: oauthconfig });
 //
 //Amplify.configure(awsconfig);
-
+//
 ReactDOM.render(
     <React.StrictMode>
         <App />
