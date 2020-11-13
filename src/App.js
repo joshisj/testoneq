@@ -3,6 +3,7 @@ import React, { Component } from "react";
 import { withAuthenticator, AmplifySignOut } from "@aws-amplify/ui-react";
 import { API, graphqlOperation } from "aws-amplify";
 import RequestForm from './saRequestForm'
+import AuthButton from './authbuttonnew'
 
 const listTodos = `query listTodos {
   listTodos{
@@ -129,12 +130,13 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <RequestForm />
-        <AmplifySignOut />
+      <div>
+        <AuthButton/>
       </div>
     );
   }
 }
 
-export default withAuthenticator(App, true);
+export default App;
+
+//export default withAuthenticator(App, true);

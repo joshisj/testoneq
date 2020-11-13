@@ -1,7 +1,7 @@
 /* eslint-disable */
 
 const oauthconfig = {
-    "domain": "secondarytest.auth.us-east-2.amazoncognito.com",
+    "domain": "secondarytest.auth.us-east-1.amazoncognito.com",
     "scope": [
         "phone",
         "email",
@@ -10,8 +10,7 @@ const oauthconfig = {
         "aws.cognito.signin.user.admin"
     ],
     "redirectSignIn": "http://localhost:3000/",
-    "redirectSignOut": "https://master.d1i2ha05cazkpa.amplifyapp.com/",
+    "redirectSignOut": "https://master.d2nm4gtt3pzpjh.amplifyapp.com/",
     "responseType": "token"
-
 }
 export {oauthconfig};

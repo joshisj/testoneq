@@ -30,11 +30,13 @@
             "AmplifyAppId": "d2nm4gtt3pzpjh"
         },
         "categories": {
-            "auth": {
-                "oneqprod84170006": {}
-            },
             "function": {
                 "S3Trigger0100cf91": {}
+            },
+            "auth": {
+                "oneqprod15274c65": {
+                    "hostedUIProviderCreds": "[]"
+                }
             }
         }
     }

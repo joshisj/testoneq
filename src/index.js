@@ -4,17 +4,24 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import Amplify from 'aws-amplify';
-import awsconfig from './aws-exports';
+//import awsconfig from './aws-exports';
 
 import 'semantic-ui-css/semantic.min.css';
 import awsExports from "./aws-exports";
 
+//
+import  { Auth } from 'aws-amplify';
+import {oauthconfig, oauthconfigLocal} from './config/oauthconfig';
+import awsconfig from './config/awsconfig';
 Amplify.configure(awsconfig);
+Auth.configure({ oauth: oauthconfig });
+//
+//Amplify.configure(awsconfig);
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>,
   document.getElementById('root')
 );
 

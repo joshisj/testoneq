@@ -1,38 +1,60 @@
-.App {
+.signintitle{
+  fontFamily: sans-Serif;
   text-align: center;
+  padding-top:50px;
+  font-size: 45px;
+  color:gray;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.saformtitle{
+  fontFamily: 'sans-Serif';
+  color: gray;
+  text-align: center;
+  padding-top:50px;
+  font-size: 45px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.container {
+  height: 200px;
+  position: relative;
+  border: 3px solid green;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.success{
+  width: 500px;
+  height: 150px;
+  border: 3px solid orange;
+  background: #DCDCDC;
+  font-weight: bold;
+  padding-top: 50px;
 }
-
-.App-link {
-  color: #61dafb;
+.siginpage{
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  border: 3px solid orange;
+  padding: 20px;
+  background: #DCDCDC;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sigin{
+  cursor: pointer;
+  display: inline-block;
+  min-height: 1em;
+  outline: 0;
+  border: none;
+  vertical-align: baseline;
+  background: #FFA500;
+  color: rgba(0,0,0,.6);
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  margin: 0 .25em 0 0;
+  padding: .78571429em 1.5em .78571429em;
+  text-transform: none;
+  text-shadow: none;
+  font-weight: 700;
+  line-height: 1em;
+  font-style: normal;
+  text-align: center;
+  text-decoration: none;
+  border-radius: .28571429rem;
+  box-shadow: 0 0 0 1px transparent inset, 0 0 0 0 rgba(34,36,38,.15) inset;
+  -webkit-user-select: none;
+  user-select: none;
 }

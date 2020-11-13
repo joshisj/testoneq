@@ -1,12 +1,12 @@
 {
   "Auth": {
     "region": "us-east-1",
-    "userPoolId": "us-east-1_YQ4JvfWWE",
-    "userPoolWebClientId": "5blnup95fs2dkfuf2lce6dshf",
-    "identityPoolId": "us-east-1:c1e7cdae-7a6a-4a57-b134-736178974385",
+    "userPoolId": "us-east-1_6uKgRwtim",
+    "userPoolWebClientId": "63d6p6cpdp6auv8vmhkdt5n95a",
+    "identityPoolId": "us-east-1:e0dc0168-8a31-4bee-80e7-da1e1327c19e",
     "mandatorySignIn": false,
     "redirectSignIn": "http://localhost:3000/",
-    "redirectSignOut": "https://master.d1i2ha05cazkpa.amplifyapp.com/"
+    "redirectSignOut": "http://localhost:3000/"
   },
   "federationTarget": "COGNITO_USER_POOLS",
   "aws_user_files_s3_bucket": "oneq-prod164644-sampledev",

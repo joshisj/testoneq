@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Amplify, { Auth, Hub } from 'aws-amplify';
 //import awsconfig from '../config/awsconfig';
 import RequestForm from "./saRequestForm";
-
+import './App.css'
 //Amplify.configure(awsconfig);
 
 function AuthButton() {
