@@ -19,9 +19,8 @@ Auth.configure({ oauth: oauthconfig });
 //Amplify.configure(awsconfig);
 //
 ReactDOM.render(
-    <React.StrictMode>
-        <App />
-    </React.StrictMode>,
+
+        <App />,
   document.getElementById('root')
 );
 
