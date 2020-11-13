@@ -9,7 +9,7 @@ import Amplify from 'aws-amplify';
 import 'semantic-ui-css/semantic.min.css';
 import awsExports from "./aws-exports";
 
-//
+//added for federate
 import  { Auth } from 'aws-amplify';
 import {oauthconfig, oauthconfigLocal} from './config/oauthconfig';
 import awsconfig from './config/awsconfig';
